@@ -1,5 +1,7 @@
 # 红队中易被攻击的一些重点系统漏洞整理
 
+配合EHole(棱洞)-红队重点攻击系统指纹探测工具使用效果更佳：https://github.com/ShiHuang-ESec/EHole
+
 ## 一、OA系统
 
 #### 泛微(Weaver-Ecology-OA)
@@ -88,7 +90,7 @@
 🔸 [Weblogic coherence组件iiop反序列化漏洞 (CVE-2020-14644)](https://xz.aliyun.com/t/8155)<br>
 🔸 [Weblogic历史漏洞合集](https://sploitus.com/?query=weblogic#exploits)<br>
 
-#### JBoss
+#### JBoss  感谢@Lx
 
 🔸 [CVE-2017-7504-JBoss JMXInvokerServlet 反序列化](https://www.cnblogs.com/null1433/p/12704908.html)<br>
 🔸 [JBoss 5.x/6.x 反序列化漏洞（CVE-2017-12149）](https://www.cnblogs.com/kuaile1314/p/12060366.html)<br>
@@ -114,6 +116,7 @@
 
 #### 禅道
 
+🔸 [【组件攻击链】禅道项目管理系统(ZenTaoPMS)高危漏洞分析与利用](https://www.4hou.com/posts/VoOW)<br>
 🔸 [CNVD-C-2020-121325 禅道开源版文件上传漏洞](https://blog.csdn.net/qq_36197704/article/details/109385695)<br>
 🔸 [禅道9.1.2 免登陆SQL注入漏洞](https://xz.aliyun.com/t/171/)<br>
 🔸 [禅道 ≤ 12.4.2 后台管理员权限Getshell](https://www.cnblogs.com/ly584521/p/13962816.html)<br>
